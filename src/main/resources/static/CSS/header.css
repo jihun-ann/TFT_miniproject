@@ -1,0 +1,43 @@
+.header-wrap{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logoImg{
+    background-image: url("/LOGO/Teamfight Tactics_full.png");
+    background-repeat: no-repeat;
+    background-size: 105% 120%;
+    background-position: center;
+    width: 200px;
+    height: 100px;
+}
+.header-idSearch-wrap{
+    margin: auto 0;
+    height: 40px;
+    border-radius: 5px;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-idSearch-wrap>button{
+    border: none;
+    background: none;
+    width: 40px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.inGameIdSubmitBtn>span{
+    font-size: 20px;
+}
+.searchInGameId{
+    width: 150px;
+    height: 25px;
+    background: none;
+    border: none;
+}
+.searchInGameId:focus{
+    outline: none;
+}

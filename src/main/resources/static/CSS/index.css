@@ -1,0 +1,12 @@
+.mainContent-wrap{
+    width: 100%;
+    display: flex;
+}
+.mainContent-left{
+    width: 70%;
+    height: 500px;
+}
+.mainContent-right{
+    width: 30%;
+    height: 500px
+}

@@ -1,0 +1,13 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/basic.html}">
+<th:block layout:fragment="flexibleCss">
+  <link href="/CSS/index.css" rel="stylesheet">
+</th:block>
+
+<div layout:fragment="content">
+  <div class="mainContent-wrap">
+    <div class="mainContent-left"></div>
+    <div class="mainContent-right"></div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+  <meta charset="UTF-8">
+  <title>TFTSolution</title>
+  <link rel="icon" href="/LOGO/Teamfight%20Tactics.png">
+  <th:block layout:replace="layout/config::config"></th:block>
+</head>
+<body>
+  <div layout:replace="layout/header::header"></div>
+  <div layout:replace="layout/menu::menu"></div>
+  <div layout:fragment="content" class="body-wrap"></div>
+  <script layout:fragment="script"></script>
+</body>
+</html>
